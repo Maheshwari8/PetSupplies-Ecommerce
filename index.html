@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Supplies Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="pet logo.webp" alt="Pet Supplies Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="btn login-btn">Login</a>
+            <a href="#" class="btn cart-btn">Cart <span class="cart-count">0</span></a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Everything Your Pet Needs in One Place!</h1>
+            <p>Premium pet products delivered right to your door.</p>
+            <a href="#shop" class="btn hero-btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- Featured Product Categories Section -->
+    <section class="featured-categories">
+        <h2>Shop by Category</h2>
+        <div class="categories-container">
+            <div class="category-card">
+                <img src="dog product.webp" alt="Dog Supplies">
+                <h3>Dog Supplies</h3>
+            </div>
+            <div class="category-card">
+                <img src="cat product.webp" alt="Cat Supplies">
+                <h3>Cat Supplies</h3>
+            </div>
+            <div class="category-card">
+                <img src="bird product.avif" alt="Bird Supplies">
+                <h3>Bird Supplies</h3>
+            </div>
+            <div class="category-card">
+                <img src="fish product.jpg" alt="Fish Supplies">
+                <h3>Fish Supplies</h3>
+            </div>
+        </div>
+    </section>
+     <!-- Best Sellers / Popular Products Section -->
+     <section class="best-sellers">
+        <h2>Best Sellers</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="dog food.jpeg" alt="Dog Food">
+                <h3>Premium Dog Food</h3>
+                <p>$29.99</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="cat toy.jpeg" alt="Cat Toy">
+                <h3>Interactive Cat Toy</h3>
+                <p>$14.99</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="bird cage.jpeg" alt="Bird Cage">
+                <h3>Spacious Bird Cage</h3>
+                <p>$45.99</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="aquarium.jpeg" alt="Aquarium Kit">
+                <h3>Aquarium Starter Kit</h3>
+                <p>$79.99</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+     <!-- Best Sellers Section -->
+     <section class="best-sellers">
+        <!-- Best sellers section here -->
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="special-offers">
+        <div class="offer-card">
+            <h2>Limited Time Offer!</h2>
+            <p>Get 20% off on all Pet Toys</p>
+            <p class="offer-details">Use code <strong>TOY20</strong> at checkout</p>
+            <a href="#shop" class="btn offer-btn">Shop Now</a>
+            <div class="countdown">
+                <p>Offer ends in:</p>
+                <div id="timer" class="timer">
+                    <div class="time" id="days">00</div>:<div class="time" id="hours">00</div>:<div class="time" id="minutes">00</div>:<div class="time" id="seconds">00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Customer Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Are Saying</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <img src="customer1.jpeg" alt="Customer 1">
+                <p>"Absolutely love the quality of the pet toys! My dog can't get enough of them. Highly recommend this store!"</p>
+                <h4>Jane Doe</h4>
+                <p>Dog Owner</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer2.jpeg" alt="Customer 2">
+                <p>"The interactive cat toys have been a hit with my feline friend. Great products and fast shipping!"</p>
+                <h4>John Smith</h4>
+                <p>Cat Owner</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer3.jpeg" alt="Customer 3">
+                <p>"The bird cage I purchased is both spacious and stylish. My parrot loves it, and so do I!"</p>
+                <h4>Emily Johnson</h4>
+                <p>Bird Owner</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer4.jpeg" alt="Customer 4">
+                <p>"The aquarium starter kit was perfect for setting up my new tank. Everything I needed was included!"</p>
+                <h4>Michael Brown</h4>
+                <p>Fish Owner</p>
+            </div>
+        </div>
+    </section>
+    <!-- Subscription Section -->
+    <section class="subscription">
+        <div class="subscription-container">
+            <h2>Subscribe for Updates</h2>
+            <p>Stay updated with our latest products, offers, and pet care tips. Sign up for our newsletter!</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+     <!-- Blog Preview Section -->
+     <section class="blog-preview">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-container">
+            <article class="blog-post">
+                <img src="post1.jpeg" alt="Blog Post 1">
+                <div class="blog-content">
+                    <h3>Understanding Pet Nutrition</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="post2.jpeg" alt="Blog Post 2">
+                <div class="blog-content">
+                    <h3>How to Train Your Dog Effectively</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="post3.jpeg" alt="Blog Post 3">
+                <div class="blog-content">
+                    <h3>Creating a Safe Space for Your Cat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+     <!-- Brand Collaborations Section -->
+     <section class="brand-collaborations">
+        <h2>Our Brand Partners</h2>
+        <div class="brand-logos">
+            <div class="brand-logo">
+                <img src="brand1..jpeg" alt="Brand 1">
+            </div>
+            <div class="brand-logo">
+                <img src="brand2..jpeg" alt="Brand 2">
+            </div>
+            <div class="brand-logo">
+                <img src="brand3..jpeg" alt="Brand 3">
+            </div>
+            <div class="brand-logo">
+                <img src="brand4..jpeg" alt="Brand 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Call to Action (Mobile) -->
+    <div class="cta-container">
+        <a href="#" class="cta-button">Shop Now</a>
+    </div>
+
+     <!-- Footer Section -->
+     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>We provide high-quality pet supplies to ensure your pets are happy and healthy.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: support@petsupplies.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="facebook.webp" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="twitter.webp" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="insta.webp" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pet Supplies Store. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
